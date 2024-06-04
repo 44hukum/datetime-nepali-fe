@@ -1,6 +1,6 @@
 {
 	"name": "datetime-nepali-fe",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Fork of a nepali-datetime converter for internal use only with fixex",
 	"repository": "https://github.com/44hukum/datetime-nepali-fe",
 	"main": "dist/datetime-nepali-fe.umd.js",

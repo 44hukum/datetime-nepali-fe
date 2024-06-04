@@ -1,4 +1,4 @@
-const { calculateAge } = require('../dist/@sbmdkl/nepali-date-converter.umd.js');
+const { calculateAge } = require('../dist/datetime-nepali-fe.es.js');
 
 describe('Age Calculator', () => {
 	test('Case I', () => {

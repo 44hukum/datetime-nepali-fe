@@ -1,13 +1,13 @@
 {
-	"name": "@sbmdkl/nepali-date-converter",
-	"version": "2.0.2",
-	"description": "A javascript package to convert nepali date BS (Bikram Sambat) to AD and vice-versa, calcuate age from nepali date (BS)",
-	"repository": "sbmdkl/nepali-date-converter",
-	"main": "dist/@sbmdkl/nepali-date-converter.umd.js",
+	"name": "datetime-nepali-fe",
+	"version": "1.0.0",
+	"description": "Fork of a nepali-datetime converter for internal use only with fixex",
+	"repository": "https://github.com/44hukum/datetime-nepali-fe",
+	"main": "dist/datetime-nepali-fe.umd.js",
 	"exports": {
 		".": {
-			"import": "./dist/@sbmdkl/nepali-date-converter.es.js",
-			"require": "./dist/@sbmdkl/nepali-date-converter.umd.js"
+			"import": "./dist/datetime-nepali-fe.es.js",
+			"require": "./dist/datetime-nepali-fe.umd.js"
 		}
 	},
 	"scripts": {
@@ -23,7 +23,7 @@
 		"vite": "^4.3.2"
 	},
 	"types": "types/index.d.ts",
-	"author": "Shubham Dhakal",
+	"author": "Hukum Gosain",
 	"license": "MIT",
 	"keywords": [
 		"nepali age calculator",

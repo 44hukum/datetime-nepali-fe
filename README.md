@@ -1,19 +1,20 @@
-# @sbmdkl/nepali-date-converter
+# Nepali DateTime Converter
 
-[![NPM](https://img.shields.io/npm/v/@sbmdkl/nepali-date-converter.svg)](https://www.npmjs.com/package/@sbmdkl/nepali-date-converter) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+This is a fork of nepali-datetime converter with fixes on particular date and added fuctionality
+
 
 A javascript package to convert nepali date BS (Bikram Sambat) to AD and vice-versa. Also include a feature to calculate age in nepali date.
 
 ## Installation
 
 ```bash
-npm install @sbmdkl/nepali-date-converter
+npm install datetime-nepali-fe
 ```
 
 ## Usage
 
 ```jsx
-const { adToBs, bsToAd, calculateAge } = require('@sbmdkl/nepali-date-converter');
+const { adToBs, bsToAd, calculateAge } = require('datetime-nepali-fe');
 try {
 	const bsDate = adToBs('2078-03-05');
 	console.log(bsDate);
@@ -53,4 +54,4 @@ Date Range for Nepali Date : 1978 BS to 2099 BS
 
 ## License
 
-MIT © [Shubham Dhakal](https://github.com/sbmdkl)
+MIT © [Hukum Gosain]
